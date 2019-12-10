@@ -16,7 +16,7 @@
 
 #include <QtCore>
 
-#include "../../src/SmtpMime"
+#include <SmtpMime>
 
 int main(int argc, char *argv[])
 {

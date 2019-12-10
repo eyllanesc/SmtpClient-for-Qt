@@ -17,7 +17,7 @@
 #include <QtWidgets>
 
 #include "sendemail.h"
-#include "../../src/SmtpMime"
+#include <SmtpMime>
 
 #include <iostream>
 
@@ -26,7 +26,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    SendEmail form (NULL);
+    SendEmail form;
 
     form.setWindowTitle("SmtpClient for Qt - Demo 2");
 

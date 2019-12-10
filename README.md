@@ -30,13 +30,28 @@ The SmtpClient for Qt is small library writen for Qt 4 (C++ version) that allows
 
 - error handling
 
+## Configuration
+
+add the following to your .pro:
+
+```console
+include(/path/of/SMTPEmail.pri)
+```
+
+include it in your files:
+
+```cpp
+#include <SmtpMime>
+
+// ...
+```
 ## Examples
 
 Lets see a simple example:
 
 ```c++
 #include <QtGui/QApplication>
-#include "../src/SmtpMime"
+#include <SmtpMime>
 
 int main(int argc, char *argv[])
 {
@@ -84,7 +99,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-For more examples see the [Wiki/Examples](https://github.com/bluetiger9/SmtpClient-for-Qt/wiki/Examples).
+For more examples see the [Wiki/Examples](https://github.com/eyllanesc/SmtpClient-for-Qt/wiki/Examples).
 
 ## License
 
