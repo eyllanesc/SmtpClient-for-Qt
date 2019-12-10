@@ -50,7 +50,7 @@ include it in your files:
 Lets see a simple example:
 
 ```c++
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <SmtpMime>
 
 int main(int argc, char *argv[])
